@@ -12,6 +12,7 @@
     "keycloak": "docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:19.0.3 start-dev"
   },
   "dependencies": {
+    "amqplib": "^0.10.3",
     "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.6",
     "ejs": "~2.6.1",
