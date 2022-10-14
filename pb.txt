@@ -1,0 +1,18 @@
+Causes de dégradation de performance d’une application:
+
+Si le projet débute, l'architecture monolithique peut être favorable, 
+à terme il faudra passer sur une archi 3tiers pour séparer la logique métier front/back.
+L'archi 3tiers est plus scalable à terme que la monolithique.
+
+Concernant les problèmes de lenteur sur le serveur. On peut mettre opter pour l'auto scalling.
+Lorsque les charges sont faibles, l’utilisation d’auto scaling groups permet aux entreprises
+d’optimiser le fonctionnement de leur infrastructure cloud en mettant quelques machines en veille.
+
+Favoriser la pagination côté back pour éviter de charger toutes la data d'une table de BDD pouvant contenir des millions de données
+
+-------
+
+-> Créer un micro service dédier uniquement au partage de fichier.
+-> Pouvoir monter en charge lors des pic d'utilisation .
+-> système de queueing entre le microservice d’upload et le back.
+-> Check si le fichier qui doit être envoyé est déjà existant
