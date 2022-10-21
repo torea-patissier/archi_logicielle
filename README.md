@@ -1,4 +1,4 @@
-## archi_logicielle
+## Rabbit mq
 
 npm i 
 node app.js
