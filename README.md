@@ -9,17 +9,16 @@ docker run -d --hostname rabbit --name rabbit -p 15672:15672 -p 5672:5672 --rest
 node send.js    
 node receive.js 
 
-## Example terminal 
+## TP1
 
-torea jour2/exo [main] $ node send.js   
- [x] Sent BONJOUR!
-torea jour2/exo [main] $ node receive.js
- [*] Waiting for messages in hello. To exit press CTRL+C
- [x] Received BONJOUR!
+https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html
+node send.js   
+node receive.js
 
 ## TP2
-Here the purpose is to send/receive from one to one
 
+https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html
+Here the purpose is to send/receive from one to one
 run node new_task.js to send messages
 run node worker.js to receive messages
 
