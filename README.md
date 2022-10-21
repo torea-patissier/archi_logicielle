@@ -22,6 +22,25 @@ torea jour2/exo [main] $ node receive.js
  [x] Received BONJOUR!
 
 # TP2
+Here the purpose is to send/receive from one to one
 
 run node new_task.js to send messages
 run node worker.js to receive messages
+
+
+# TP3
+https://www.rabbitmq.com/tutorials/tutorial-three-javascript.html
+
+Here the purpose is to send/receive from one to many
+Open terminal
+run node emit_log.js
+duplicate window 
+run receive_log.js
+  again duplicate window
+  again run receive_log.js
+
+Emit log then could send message to two receiver
+
+
+
+
