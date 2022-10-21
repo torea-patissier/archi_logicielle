@@ -1,4 +1,4 @@
-## Rabbit mq
+# Rabbit MQ
 
 npm i 
 node app.js
